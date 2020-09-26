@@ -1,0 +1,72 @@
+body{
+    font-family: 'Secular One', sans-serif;
+    background: url(/img/bg-pattern-desktop.svg);
+} 
+
+.logo{
+    padding: 2% 0 0 5%;
+}
+
+.logo1{
+    padding: 2% 0 0 10%;
+}
+
+.content{
+    padding: 10%;
+}
+
+.heading{
+    font-family: 'Kalam', cursive;
+    color: rgba(0, 0, 0, 0.719);
+}
+
+.heading-2{
+    font-family: 'Raleway', sans-serif;
+    color: rgb(204, 95, 101);
+}
+
+.paragraph{
+    color: rgba(204, 95, 101, 0.815);
+}
+
+.image{
+    height: 100vh;
+}
+
+form {
+    display:flex;
+    flex-direction:row;
+    border:1px solid rgba(204, 95, 101, 0.815);
+    border-radius: 20px;
+}
+
+form:focus, form:hover{
+    border:2px solid rgb(160, 71, 75);
+}
+
+.email {
+    flex-grow:2;
+    border-radius: 20px;
+    color: rgb(204, 95, 101);
+    border:none;
+}
+
+.email::placeholder{
+    color: rgba(204, 95, 101, 0.445);
+}
+  
+.email:focus {
+    box-shadow: none;
+    outline: none;
+    color: rgb(204, 95, 101);
+}
+  
+.btn-property {
+    background-color:rgba(255, 154, 159, 0.815);
+    border-radius: 20px;
+}
+
+.btn-property:hover{
+    background-color:rgba(255, 154, 159, 0.589);
+    box-shadow: 2px 3px 5px rgba(124, 98, 98, 0.651);
+}
